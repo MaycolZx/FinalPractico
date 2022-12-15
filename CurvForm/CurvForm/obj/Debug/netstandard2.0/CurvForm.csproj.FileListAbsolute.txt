@@ -1,0 +1,16 @@
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.csproj.AssemblyReference.cache
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\bin\Debug\netstandard2.0\CurvForm.deps.json
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\bin\Debug\netstandard2.0\CurvForm.dll
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\bin\Debug\netstandard2.0\CurvForm.pdb
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.AssemblyInfoInputs.cache
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.AssemblyInfo.cs
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.csproj.CoreCompileInputs.cache
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\XamlC.stamp
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.dll
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\refint\CurvForm.dll
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\CurvForm.pdb
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\ref\CurvForm.dll
+E:\ProjectosVSC22\Nuevo01\CurvForm\CurvForm\obj\Debug\netstandard2.0\MyForm.xaml.g.cs

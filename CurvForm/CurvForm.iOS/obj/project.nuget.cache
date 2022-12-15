@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pFMVEuFPXniIB04MDAPgYfgtQejeb+xIwCc+6iXEpwc/3dPfWjrlqSoFsMFhbN091te3fCDHLePLS1JeqrgQtw==",
+  "success": true,
+  "projectFilePath": "E:\\ProjectosVSC22\\Nuevo01\\CurvForm\\CurvForm.iOS\\CurvForm.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
