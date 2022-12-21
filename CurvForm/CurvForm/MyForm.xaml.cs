@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using static Xamarin.Forms.Internals.Profile;
 
 namespace CurvForm
 {
@@ -45,7 +47,7 @@ namespace CurvForm
 
         }
         
-        void ButtonSubmitClicked(object sender, EventArgs e)
+        async void ButtonSubmitClicked(object sender, EventArgs e)
         {
             var in_name = name.Text;
             var in_conTelf = contactoTelf.Text;
@@ -53,8 +55,28 @@ namespace CurvForm
             var in_nacion = NacionPList[0];
             var in_fecha = startFer.Date;
             var in_editor = editor.Text;
-                Application.Current.MainPage.Navigation.PushModalAsync(new MainPage(in_name,in_conTelf,in_nacion,in_fecha,in_conEmail,"Nivel de Ingles: Avanzado",in_editor), true);
+            Application.Current.MainPage.Navigation.PushModalAsync(new MainPage(in_name,in_conTelf,in_nacion,in_fecha,in_conEmail,"Nivel de Ingles: Avanzado",in_editor), true);
             //Application.Current.MainPage.Navigation.PushModalAsync(new TeflCont(input_conTelf), true);
+
+            var client = new HttpClient();
+            client.BaseAddress = new Uri("localhost:3000");
+
+            string jsonData = @"{{
+                                 ""to"" : ""{in_conEmail}"",
+                                 ""subject"" : ""{in_conTelf}"",
+                                 ""content"":""{in_editor}"",
+                                 ""htmlRender"":{
+                                        ""full_name"":""{in_name}"",
+                                        ""ocupation"":""{in_nacion}"",
+                                        ""profile"":""{in_editor}""
+                                 }
+             }";
+
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PostAsync("/send", content);
+
+            // this result string should be something like: "{"token":"rgh2ghgdsfds"}"
+            var result = await response.Content.ReadAsStringAsync();
 
 
         }
